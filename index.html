@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouton radio customisé</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h2>Choisissez votre plan de livraison 🚚 :</h2>
+      <div class="delivery__options">
+        <input
+          type="radio"
+          value="Standard"
+          id="delivery__standard"
+          name="delivery__option"
+        />
+        <label for="delivery__standard">
+          <h3>Standard</h3>
+          <p>📦 4-5 jours ouvrés</p>
+          <div class="price">0€</div>
+        </label>
+        <input
+          type="radio"
+          value="fast"
+          id="delivery__fast"
+          name="delivery__option"
+        />
+        <label for="delivery__fast">
+          <h3>Rapide</h3>
+          <p>📦 2-3 jours ouvrés</p>
+          <div class="price">3.99€</div>
+        </label>
+        <input
+          type="radio"
+          value="express"
+          id="delivery__express"
+          name="delivery__option"
+        />
+        <label for="delivery__express">
+          <h3>Express</h3>
+          <p>📦 1 jour ouvré</p>
+          <div class="price">9.99€</div>
+        </label>
+      </div>
+    </section>
+  </body>
+</html>
