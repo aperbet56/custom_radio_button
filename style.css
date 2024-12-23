@@ -1,0 +1,121 @@
+/**** Importation de la police Poppins ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: calc(100% - 40px);
+    max-width: 994px;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+.delivery__options {
+    margin-top: 1.25em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.delivery__options>label {
+    display: block;
+    position: relative;
+    border: 1px solid #cecece;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(60, 64, 67, 0.25);
+    transition: all 0.25s ease-in-out;
+}
+
+.delivery__options>label:hover {
+    transform: scale(1.03);
+}
+
+.delivery__options>input {
+    display: none;
+}
+
+.delivery__options>label h3,
+.price {
+    font-weight: 600;
+}
+
+.delivery__options>label h3 {
+    margin-bottom: 4px;
+}
+
+.delivery__options>label p,
+.price {
+    font-size: 15px;
+}
+
+.delivery__options>label p {
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+.price {
+    color: #222222;
+}
+
+.delivery__options>label::before,
+.delivery__options>label::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.delivery__options>label::before {
+    top: 0.5em;
+    right: 0.5em;
+    width: 20px;
+    height: 20px;
+    background-color: #2f54be;
+}
+
+.delivery__options>label::after {
+    top: calc(0.5em + 5px);
+    right: calc(0.5em + 5px);
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+}
+
+.delivery__options input:checked+label {
+    background-color: #ebf0ff;
+    border: 1px solid #2f54be;
+}
+
+.delivery__options input:checked+label::before,
+.delivery__options input:checked+label::after {
+    transform: scale(1);
+    opacity: 1;
+}
