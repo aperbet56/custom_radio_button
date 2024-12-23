@@ -49,6 +49,7 @@ h2 {
     padding: 1em;
     cursor: pointer;
     box-shadow: 0 1px 6px 0 rgba(60, 64, 67, 0.25);
+    will-change: transform;
     transition: all 0.25s ease-in-out;
 }
 
