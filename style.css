@@ -119,3 +119,11 @@ h2 {
     transform: scale(1);
     opacity: 1;
 }
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 572px) {
+    .delivery__options {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
