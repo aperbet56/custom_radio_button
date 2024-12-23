@@ -6,7 +6,7 @@ Création de boutons radio customosés en HTML5 et CSS3 permettant de choisir so
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/custom_radio_button/
 
 ## Projet développé avec
 
