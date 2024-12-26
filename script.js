@@ -42,7 +42,7 @@ deliveryExpressInput.addEventListener("click", () => {
   // Ecoute de l'événement "click" sur le bouton valider
   button.addEventListener("click", () => {
     alert(
-      `Votre colis numéro 69249164514354856 vous sera livré sous ${deliveryDelayExpress.textContent} ! Un mail vient de vous être envoyé. Merci de votre confiance ! `
+      `Votre colis numéro 69249164514354856 vous sera livré sous ${deliveryDelayExpress.textContent} ! Un mail vient de vous être envoyé. Merci de votre confiance !`
     );
     window.location.reload();
   });
