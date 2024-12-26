@@ -8,43 +8,81 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="container">
-      <h2>Choisissez votre plan de livraison 🚚 :</h2>
-      <div class="delivery__options">
-        <input
-          type="radio"
-          value="Standard"
-          id="delivery__standard"
-          name="delivery__option"
+    <header>
+      <h1>Votre mode de livraison</h1>
+    </header>
+    <div class="separate__bar"></div>
+    <main class="main__content">
+      <section class="scene">
+        <div class="background buildings"></div>
+        <div class="background clouds"></div>
+        <div class="road"></div>
+        <img
+          class="truck-icon"
+          src="https://assets.codepen.io/5755838/delivery-truck_1.svg"
+          alt="delivery trucjk"
         />
-        <label for="delivery__standard">
-          <h3>Standard</h3>
-          <p>📦 4-5 jours ouvrés</p>
-          <div class="price">0€</div>
-        </label>
-        <input
-          type="radio"
-          value="fast"
-          id="delivery__fast"
-          name="delivery__option"
-        />
-        <label for="delivery__fast">
-          <h3>Rapide</h3>
-          <p>📦 2-3 jours ouvrés</p>
-          <div class="price">3.99€</div>
-        </label>
-        <input
-          type="radio"
-          value="express"
-          id="delivery__express"
-          name="delivery__option"
-        />
-        <label for="delivery__express">
-          <h3>Express</h3>
-          <p>📦 1 jour ouvré</p>
-          <div class="price">9.99€</div>
-        </label>
-      </div>
-    </section>
+      </section>
+
+      <section class="container">
+        <h2>Choisissez votre mode de livraison 🚚 :</h2>
+        <div class="delivery__options">
+          <input
+            type="radio"
+            value="Standard"
+            id="delivery__standard"
+            name="delivery__option"
+          />
+          <label for="delivery__standard">
+            <h3>Standard</h3>
+            <p class="delivery__delay__standard">📦 4-5 jours ouvrés</p>
+            <div class="price">0€</div>
+          </label>
+          <input
+            type="radio"
+            value="fast"
+            id="delivery__fast"
+            name="delivery__option"
+          />
+          <label for="delivery__fast">
+            <h3>Rapide</h3>
+            <p class="delivery__delay__fast">📦 2-3 jours ouvrés</p>
+            <div class="price">3.99€</div>
+          </label>
+          <input
+            type="radio"
+            value="express"
+            id="delivery__express"
+            name="delivery__option"
+          />
+          <label for="delivery__express">
+            <h3>Express</h3>
+            <p class="delivery__delay__express">📦 1 jour ouvré</p>
+            <div class="price">9.99€</div>
+          </label>
+        </div>
+      </section>
+
+      <section class="description">
+        <div class="cell">
+          <p class="description__heading">Livraison</p>
+        </div>
+        <div class="cell">
+          <p class="description__content"></p>
+        </div>
+        <div class="cell">
+          <p class="description__heading">Colis :</p>
+        </div>
+        <div class="cell">
+          <p class="description__number">69249164514354856</p>
+        </div>
+      </section>
+    </main>
+    <div class="separate__bar"></div>
+    <footer>
+      <p>Merci de nous avoir choisi 📦</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
