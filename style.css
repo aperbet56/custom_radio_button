@@ -36,6 +36,7 @@ footer p {
 h1 {
     font-size: 30px;
     text-transform: capitalize;
+    margin: 0;
 }
 
 .separate__bar {
@@ -249,7 +250,8 @@ h2 {
 }
 
 .confirmation h2 {
-    margin-bottom: 50px;
+    margin: 0 12px 50px;
+    text-align: center;
 }
 
 .btn {
