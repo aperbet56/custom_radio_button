@@ -242,10 +242,36 @@ h2 {
     font-size: 18px;
 }
 
+.confirmation {
+    display: grid;
+    place-items: center;
+    margin-bottom: 100px;
+}
+
+.confirmation h2 {
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #111111;
+    color: #e8e8e8;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2f54be;
+}
+
 footer p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 800;
+    margin-top: 20px;
 }
 
 /**** Responsive design version mobile ****/
