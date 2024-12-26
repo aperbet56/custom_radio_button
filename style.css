@@ -251,6 +251,12 @@ footer p {
 /**** Responsive design version mobile ****/
 
 @media screen and (max-width: 572px) {
+
+    .scene,
+    .description {
+        max-width: 95%;
+    }
+
     .delivery__options {
         grid-template-columns: repeat(1, 1fr);
     }
