@@ -15,7 +15,7 @@ Lien vers le projet : https://aperbet56.github.io/custom_radio_button/
 - Flexbox
 - Grid
 - Animations CSS3 (transition, @keyframes)
-- Création de boutons radio customosés.
+- Création de boutons radio customosés via les psuedo-éléments css ::before ::after
 - Page web responsive
 - Desktop first
 - Utilisation d'un normaliseur : le fichier normalize.css
