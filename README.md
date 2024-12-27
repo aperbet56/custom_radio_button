@@ -1,8 +1,8 @@
-## BOUTON RADIO CUSTOMISE
+## CHOISISSEZ VOTRE MODE DE LIVRAISON (AVEC BOUTON RADIO CUSTOMISE)
 
 ## Le challenge
 
-Création d'une place web en HTML5, CSS3 et JavaScript permettant à l'internaute de choisir son mode le livraison.
+Création d'une page web en HTML5, CSS3 et JavaScript permettant à l'internaute de choisir son mode le livraison.
 
 ## Démonstration
 
