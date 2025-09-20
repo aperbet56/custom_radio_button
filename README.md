@@ -1,5 +1,7 @@
 ## CHOISISSEZ VOTRE MODE DE LIVRAISON (AVEC BOUTON RADIO CUSTOMISE)
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Création d'une page web en HTML5, CSS3 et JavaScript permettant à l'internaute de choisir son mode le livraison.
